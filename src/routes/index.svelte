@@ -1,10 +1,12 @@
 <svelte:head>
-    <title>Welcome</title>
+  <title>Welcome</title>
+        <style>
+     @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
+    h1 {
+        font-family: "Special Elite", cursive;
+    }     body {
+            background-color: lightsteelblue;
+          }
+        </style>
 </svelte:head>
 <h1>Christopher Patrouch</h1>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
-    h1{
-        font-family: "Special Elite", cursive;
-    }
-</style>
