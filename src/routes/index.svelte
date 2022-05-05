@@ -19,11 +19,9 @@
 <h1>Christopher Patrouch</h1>
 
  <script>
-	let src = '$lib/images/profilepic2020.webp';
+	import profilepic from '$lib/images/profilepic2020.webp';
 	let name = 'CPatraldo';
 </script>
-
-
 
 <p>tl;dr
 My tools and current technology stack, not necessarily by order:</p>
@@ -34,7 +32,7 @@ My tools and current technology stack, not necessarily by order:</p>
 
 <p>
 Send me an email: <a href="mailto:christopher@patrouch.dev">
-<img {src} alt='{name} is smiling' border-width="10"  width="200" height="200">
+<img alt="{name} is smiling" src={profilepic} border-width="10" width="200" height="200"/>
 </a>
 </p>
 
