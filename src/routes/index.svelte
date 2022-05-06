@@ -2,7 +2,7 @@
   <title>Welcome</title>
  <style>
    @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
- h1 {
+ h1, ul, li, a {
         font-family: "Special Elite", cursive;
     }
     p {
