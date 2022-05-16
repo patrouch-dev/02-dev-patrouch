@@ -3,12 +3,14 @@
 </script>
 
 
-
+<div class="px-36">
 <nav>
     <a href="/">Home</a>
     <a href="/about">About</a>
-  </nav>
+    <a href="/settings">Settings</a>
 
+  </nav>
+</div>
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
     nav a {
