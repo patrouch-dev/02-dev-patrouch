@@ -1,6 +1,6 @@
 <script>
-	import Icon from './Icon.svelte';
-	import Nested from './Nested.svelte';
+	import Icon from '../Icon.svelte';
+	import Nested from '../Nested.svelte';
 	let string = `this string contains some <strong>HTML!!!</strong>`;
 
 	let count = 0;
@@ -29,7 +29,7 @@
 		}
 	</style>
 </svelte:head>
-<h1 class="text-3xl font-bold">about patrouch.dev</h1>
+<h1 class="text-3xl font-bold">about patraldo.dev</h1>
 
 <button on:click={incrementCount}>
 	Clicked {count}
