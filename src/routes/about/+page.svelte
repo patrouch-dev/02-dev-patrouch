@@ -1,6 +1,6 @@
 <script>
-	import Icon from '../Icon.svelte';
-	import Nested from '../Nested.svelte';
+	import Icon from '../Icon/+page.svelte';
+	import Nested from '../Nested/+page.svelte';
 	let string = `this string contains some <strong>HTML!!!</strong>`;
 
 	let count = 0;

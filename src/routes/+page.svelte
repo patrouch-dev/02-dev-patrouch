@@ -27,7 +27,7 @@ ul {
 	Toggle
 </Button>
  <script>
-   	import Button from './Button.svelte'
+   	import Button from './Button/+page.svelte'
   	import profilepic from '$lib/images/profilepic2020.webp';
 	let name = 'CPatraldo';
 </script>
